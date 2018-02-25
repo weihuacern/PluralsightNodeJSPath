@@ -9,8 +9,8 @@ var writeGreeting = function(name) {
 	console.log(message);	
 }
 
-writeGreeting("Scott");
-writeGreeting("Allen");
+writeGreeting("Wei");
+writeGreeting("Hua");
 
 var answer = parseInt(z) + y;
 console.log(answer);

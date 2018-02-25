@@ -1,4 +1,4 @@
-var dice = require("./dice");
+var dice = require("./module6ex_dice.js");
 var die = dice.die;
 
 console.log(dice.name);

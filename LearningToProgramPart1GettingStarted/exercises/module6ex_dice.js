@@ -9,4 +9,4 @@ var die = {
 };
 
 exports.die = die;
-exports.name = "Scott";
+exports.name = "Wei";
