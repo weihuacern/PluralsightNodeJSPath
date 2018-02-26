@@ -1,7 +1,9 @@
 # PluralsightNodeJSPath
-https://app.pluralsight.com/paths/skill/node-js
-# Beginner: Learning To Program - Part 1: Getting Started
-- Package requirement:
+Node.js course serial. See [link](https://app.pluralsight.com/paths/skill/node-js). <br />
+
+## Beginner: Learning To Program - Part 1: Getting Started
+Basic JavaScript with Node.js. See [link](https://app.pluralsight.com/library/courses/learning-programming-javascript/table-of-contents). <br />
+### Requirements
 ```
 sudo apt-get install nodejs-legacy
 sudo apt-get install npm
@@ -10,7 +12,7 @@ npm install express -g
 export NODE_PATH="/usr/local/lib/node_modules"
 ```
 
-## Exercises:
+### Exercises
  - Module 2:
  ```
  nodejs module2ex_program.js 4
@@ -44,3 +46,16 @@ export NODE_PATH="/usr/local/lib/node_modules"
  lsof -t -i:3000
  sudo kill -9 processID
  ```
+## Beginner: NPM Playbook
+Basic instuction of the NPM in Node.js. See [link](https://app.pluralsight.com/library/courses/npm-playbook/table-of-contents). <br />
+### Requirements
+npm and nodejs installed on the machine.
+### Exercises
+No exercise for this course.
+
+## Beginner: Building a JavaScript Development Environment
+Environment setting for JavaScript development. See [link](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents). <br />
+### Requirements
+### Exercises
+ - Module 2: JavaScript editor, use visual studio code.
+ - Module 3: Choose NPM as Node.js package manager.
