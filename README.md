@@ -10,7 +10,7 @@ npm install express -g
 export NODE_PATH="/usr/local/lib/node_modules"
 ```
 
-- Exercises:
+## Exercises:
  - Module 2:
  ```
  nodejs module2ex_program.js 4
