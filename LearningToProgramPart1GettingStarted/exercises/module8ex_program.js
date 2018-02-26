@@ -1,4 +1,4 @@
-var book = require("./lib/grades").book;
+var book = require("./lib/module8ex_grades.js").book;
 var express = require("express");
 var app = express();
 
@@ -7,7 +7,6 @@ app.get("/", function(req, res){
 });
 
 app.get("/grade", function(req, res) {
-
  	var grades = req.query.grades.split(",");
 	for(var i = 0; i < grades.length; i+=1){
 		book.addGrade(parseInt(grades[i]));

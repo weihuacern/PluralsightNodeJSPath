@@ -1,4 +1,4 @@
-var book = require("../lib/grades").book;
+var book = require("../lib/module8ex_grades.js").book;
 
 exports["setUp"]= function(callback) {
 	book.reset();
@@ -32,4 +32,3 @@ exports["Can add new grade"] = function(test) {
    test.equal(count, 1);
    test.done();
 };
-
