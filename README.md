@@ -64,3 +64,12 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
  - Module 6: Transpiling, translate and compile to latest JS version (like ES5 to ES6), and then compile. Use Babel (Other options are: TypeScript, Elm). <br /> 
  - Module 7: Bundling, bundle npm packages into a format that browser can consume. Format choices: CommonJS (for Node.js) or ES6 module Choose Webpack (Ohter options are: browserify, Rollup, JSPM) as bundler. Use sourcemap to debug the bundled code. <br />
  - Module 8: Linting, debugging tools for typo, suspicious structure, etc. Use ESLint. <br />
+ - Module 9: Testing (unit, integration and UI) and integration. Unit test and continuous integration (CI server, use Travis, Appveyor). <br />
+   - 1. Framework: Mocha (Good, but no asseration library), Jasmine, Tape, QUnit, AVA, Jest. <br />
+   - 2. Assertion library: Tell what to expecta. Chai. <br />
+   - 3. Helper library: JSDOM. <br />
+   - 4. Where to run test: Browser (Karma, Testem), Headless browser (PhantomJS), in-memory DOM (JSDOM). <br />
+   - 5. Where to place test: Centralized or alongside. <br />
+   - 6. When to run test: Unit test, each time hit save. But integration test can be slow. <br />
+ - Module 10: HTTP calls. <br />
+ - Module 11: Project Structure,
