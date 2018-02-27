@@ -71,5 +71,5 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
    - 4. Where to run test: Browser (Karma, Testem), Headless browser (PhantomJS), in-memory DOM (JSDOM). <br />
    - 5. Where to place test: Centralized or alongside. <br />
    - 6. When to run test: Unit test, each time hit save. But integration test can be slow. <br />
- - Module 10: HTTP calls. <br />
+ - Module 10: HTTP calls. Node: http,request; Browser: XMLHttpRequest, jQuery, Framework-based, Fetch; Node and Browser: isomorphic-fetch, xhr. Mock API: JSON server. <br />
  - Module 11: Project Structure,
