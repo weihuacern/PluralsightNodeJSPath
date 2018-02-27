@@ -2,9 +2,8 @@ import './index.css';
 //import numeral from 'numeral';
 //const courseValue = numeral(1000).format('$0,0.00');
 //console.log(`I would pay ${courseValue} for this awesome course!`);
-
-//import {getUsers, deleteUser} from './api/userApi';
-import {getUsers} from './api/userApi';
+import {getUsers, deleteUser} from './api/userApi';
+//import {getUsers} from './api/userApi';
 
 // Populate table of users via API call.
 getUsers().then(result => {
@@ -21,7 +20,7 @@ getUsers().then(result => {
   });
 
   global.document.getElementById('users').innerHTML = usersBody;
-  /*
+
   const deleteLinks = global.document.getElementsByClassName('deleteUser');
 
   // Must use array.from to create a real array from a DOM collection
@@ -35,6 +34,5 @@ getUsers().then(result => {
       row.parentNode.removeChild(row);
     };
   });
-  */
 });
 

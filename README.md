@@ -72,4 +72,6 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
    - 5. Where to place test: Centralized or alongside. <br />
    - 6. When to run test: Unit test, each time hit save. But integration test can be slow. <br />
  - Module 10: HTTP calls. Node: http,request; Browser: XMLHttpRequest, jQuery, Framework-based, Fetch; Node and Browser: isomorphic-fetch, xhr. Mock API: JSON server. <br />
+   - Basic fetch. <br />
+   - Mock HTTP: JSON Schema Faker to fake database, then JSON server to fake API. <br />
  - Module 11: Project Structure,
