@@ -74,4 +74,12 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
  - Module 10: HTTP calls. Node: http,request; Browser: XMLHttpRequest, jQuery, Framework-based, Fetch; Node and Browser: isomorphic-fetch, xhr. Mock API: JSON server. <br />
    - Basic fetch. <br />
    - Mock HTTP: JSON Schema Faker to fake database, then JSON server to fake API. <br />
- - Module 11: Project Structure,
+ - Module 11: Project Structure. JS in .js file, by feature and POJO. <br />
+ - Module 12: Production build, . <br />
+   - Minification: speeding page load and saving bandwidth. <br />
+   - Sourcemap: debugging the bundled code. <br />
+   - Dynamic HTML: html-webpack-plugin. <br />
+   - Cache busting. <br />
+   - Bundle splitting: main and vendor. <br />
+   - Error logging: TrackJS. <br />
+ - Module 13: Production deploy, UI and API. Github or Surge for UI, HEROKU for API. <br />
