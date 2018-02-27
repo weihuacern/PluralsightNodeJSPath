@@ -65,12 +65,12 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
  - Module 7: Bundling, bundle npm packages into a format that browser can consume. Format choices: CommonJS (for Node.js) or ES6 module Choose Webpack (Ohter options are: browserify, Rollup, JSPM) as bundler. Use sourcemap to debug the bundled code. <br />
  - Module 8: Linting, debugging tools for typo, suspicious structure, etc. Use ESLint. <br />
  - Module 9: Testing (unit, integration and UI) and integration. Unit test and continuous integration (CI server, use Travis (Linux), Appveyor (windows)). <br />
-   - 1. Framework: Mocha (Good, but no asseration library), Jasmine, Tape, QUnit, AVA, Jest. <br />
-   - 2. Assertion library: Tell what to expecta. Chai. <br />
-   - 3. Helper library: JSDOM. <br />
-   - 4. Where to run test: Browser (Karma, Testem), Headless browser (PhantomJS), in-memory DOM (JSDOM). <br />
-   - 5. Where to place test: Centralized or alongside. <br />
-   - 6. When to run test: Unit test, each time hit save. But integration test can be slow. <br />
+   - Framework: Mocha (Good, but no asseration library), Jasmine, Tape, QUnit, AVA, Jest. <br />
+   - Assertion library: Tell what to expecta. Chai. <br />
+   - Helper library: JSDOM. <br />
+   - Where to run test: Browser (Karma, Testem), Headless browser (PhantomJS), in-memory DOM (JSDOM). <br />
+   - Where to place test: Centralized or alongside. <br />
+   - When to run test: Unit test, each time hit save. But integration test can be slow. <br />
  - Module 10: HTTP calls. Node: http,request; Browser: XMLHttpRequest, jQuery, Framework-based, Fetch; Node and Browser: isomorphic-fetch, xhr. Mock API: JSON server. <br />
    - Basic fetch. <br />
    - Mock HTTP: JSON Schema Faker to fake database, then JSON server to fake API. <br />
