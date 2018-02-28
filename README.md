@@ -83,3 +83,13 @@ Environment setting for JavaScript development. See [link](https://app.pluralsig
    - Bundle splitting: main and vendor. <br />
    - Error logging: TrackJS. <br />
  - Module 13: Production deploy, UI and API. Github or Surge for UI, HEROKU for API. <br />
+
+## Intermediate: Introduction to Node.js
+Basic design pattern of Node.js. See [link](https://app.pluralsight.com/library/courses/node-intro/table-of-contents). <br />
+### Requirements
+ - Node.js building blocks: libuv (a high performance, cross-platform evented I/O library), V8 (google's javascript engine), js-c++. Event Loop is important in JS. <br />
+### Exercises
+ - Module 1: Asychronous code using callback. <br />
+ - Module 2: Require and NPM. <br />
+ - Module 3: Event and stream. Event vs callback: Event do not accumulate object in memory. <br />
+ - Module 4: Accessing local system. <br />
